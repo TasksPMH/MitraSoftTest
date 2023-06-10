@@ -1,0 +1,81 @@
+{
+  "env": { 
+    "browser": true,
+    "es2020": true 
+  },
+  "extends": [
+	"plugin:react/jsx-runtime",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+	"react",
+    "react-refresh"
+  ],
+  "rules": {
+    "react-refresh/only-export-components": "warn",
+    "no-trailing-spaces": "error",
+    "indent": [
+		"error",
+		4,
+		{
+			"SwitchCase": 1
+		}
+	],
+	"eol-last": [
+		"error",
+		"always"
+	],
+	"linebreak-style": [
+		"error",
+		
+		"unix"
+	],
+	"quotes": [
+		"error",
+		"single"
+	],
+	"semi": [
+		"error",
+		"never"
+	],
+	"no-mixed-spaces-and-tabs": [
+		"error",
+		"smart-tabs"
+	],
+	"no-multiple-empty-lines": [
+		"error",
+		{
+			"max": 1
+		}
+	],
+	"object-curly-spacing": [
+		"error",
+		"always"
+	],
+	"react/function-component-definition": [
+		2,
+		{ 
+			"namedComponents": "arrow-function"
+		}
+	],
+	"react/jsx-curly-spacing": [
+		2,
+		"always",
+		{
+			"allowMultiline": false,
+			"spacing": {"objectLiterals": "always"}
+		}
+	],
+	"jsx-quotes": [
+		"error",
+		"prefer-single"
+	]
+  }
+}
