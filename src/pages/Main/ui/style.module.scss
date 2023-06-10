@@ -1,0 +1,12 @@
+.postsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.list {
+    flex-grow: 1;
+}
