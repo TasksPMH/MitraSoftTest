@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 60px;
+    border-bottom: 1px solid #666;
+}
+
+.burgerMenuButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        margin: 0 0 10px;
+        color: #333;
+
+        &.active {
+            color: #ff8c00;
+        }
+
+        &:hover {
+            color: blue;
+        }
+    }
+}
