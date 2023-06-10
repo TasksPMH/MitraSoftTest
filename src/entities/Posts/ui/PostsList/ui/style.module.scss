@@ -1,0 +1,14 @@
+.postList {
+    align-self: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    padding: 10px 5px;
+
+    >div {
+
+        flex-grow: 1;        
+        margin: 5px;
+    }
+}
